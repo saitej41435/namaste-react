@@ -1,0 +1,13 @@
+
+header
+    logo
+    nav items
+body
+    search
+    restaurants container
+        restaurant card
+footer
+    copy right
+    links
+    address
+    contact

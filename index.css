@@ -1,3 +1,79 @@
-#header{
-    color: red
+body{
+    margin: 0px;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.nav-items{
+    margin-right: 20px;
+}
+
+
+.nav-items > ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-items > ul > li {
+    font-size: 14px;
+}
+
+.body{
+
+}
+
+.search{
+    border: 1px solid black;
+    width: 400px;
+    height: 30px;
+    margin: 20px auto;
+    border-radius: 5px;
+}   
+
+.res-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.res-card{
+    width: 250px;
+    height: 300px;
+    border-radius: 6px;
+    border: 1px solid rgb(212, 210, 210);
+    padding: 5px;
+}
+
+.res-card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.3s;
+    border: 1px solid grey;
+}
+
+.res-logo{
+    width: 100%;
+   
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.rec-footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
 }
